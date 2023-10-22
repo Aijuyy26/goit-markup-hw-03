@@ -27,15 +27,13 @@
     display: flex;
    max-width: 1158px;
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding: 0;
     }
 
     .header-field{
  
      background: var(--DAIRY,#FCFCFC);
-     padding-top: 25.5px;
-     padding-bottom: 25.5px;
+    
      border-bottom: 1px solid #e7e9fc;
  }
  
@@ -56,20 +54,24 @@
      align-items: center;
      justify-content: space-between;
      margin-right: 332px;
-     gap: 40px;
-     padding: 24px 0;
+    
     }
 
     .header-list {
+        gap: 40px;
+        padding: 24px 0;
+
         display: flex;
-        column-gap: 40px;
+       
         
     }
 
     .address-list {
-        display: flex;
-        column-gap: 40px;
+    
         gap: 40px ;
+        width: 350px;
+        margin-top: 25px;
+        display: flex;
     }
  
     .logo {
@@ -117,7 +119,8 @@
  }
  
  .header-address {
- 
+
+   
      font-style: normal;
  }
  
