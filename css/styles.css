@@ -24,14 +24,17 @@
  }
 
  .container {
-    display: flex;
+   
    max-width: 1158px;
    margin: 0 auto;
    padding: 0;
     }
+    .header-div {
+        display: flex;
+    }
 
     .header-field{
- 
+        
      background: var(--DAIRY,#FCFCFC);
     
      border-bottom: 1px solid #e7e9fc;
@@ -149,8 +152,8 @@
  }
 
  .section-button .container {
-    padding-top: 188px;
-    padding-bottom: 292px;
+
+    
     display: block;
     margin: 0 auto;
  }
@@ -390,8 +393,7 @@
  .footer {
  
      background: #2E2F42;
-     width: 1440px;
-     height: 312px;
+    
      padding: 100px 0 
      
  }
