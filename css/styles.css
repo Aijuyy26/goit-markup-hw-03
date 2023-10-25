@@ -27,7 +27,7 @@
    
    max-width: 1158px;
    margin: 0 auto;
-   padding: 0;
+   padding: 0 15px
     }
     .header-div {
         display: flex;
@@ -89,6 +89,7 @@
     text-align: left;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0
     }
  
     .studio {
@@ -114,6 +115,7 @@
      line-height: 24px;
      letter-spacing: 0.02em;
      font-family: Roboto;
+     
  }
  
  .nav-text:hover, .nav-text:focus {
@@ -218,6 +220,11 @@
     border: 0;
     
  }
+ .visually-hidden {
+  visibility: hidden; 
+  opacity: 0; 
+  pointer-events: none;
+ }
 
  
  .title-container {
@@ -242,6 +249,10 @@
      color: #2E2F42;
      width: 264px;
      margin-bottom: 8px;
+ }
+
+ .title-li {
+    width: calc((100% - 72px) / 4);
  }
  
  .main-paragrah {
