@@ -62,7 +62,6 @@
 
     .header-list {
         gap: 40px;
-        padding: 24px 0;
 
         display: flex;
        
@@ -105,7 +104,7 @@
  
  .logo-studio {
      color: #2e2f42;
-     margin-right: 76px;
+     
  }
  
  .nav-text {
@@ -115,6 +114,7 @@
      line-height: 24px;
      letter-spacing: 0.02em;
      font-family: Roboto;
+     padding: 24px 0
      
  }
  
@@ -224,6 +224,7 @@
   visibility: hidden; 
   opacity: 0; 
   pointer-events: none;
+  
  }
 
  
